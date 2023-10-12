@@ -1,0 +1,22 @@
+html, body {
+    margin: 0; padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: #000;
+}
+.fondo {
+    width: 100%;
+    height: 100%;
+}
+
+.particula {
+    width: 50px;
+    height: 50px;
+    background: #000;
+    border-radius: 50%;
+    position: absolute;
+}
+.particula[data-padre = "false"] {
+    width: 5px;
+    height: 5px;
+}
